@@ -18,6 +18,18 @@ module.exports = {
     },
     extend: {
       colors: {
+        "blue-dark-12": "#EAF6FF",
+        "blue-light-11": "#006ADC",
+        "blue-light-3": "#EDF6FF",
+        "blue-light-6": "#B7D9F8",
+        "gray-light-1": "#FCFCFC",
+        "gray-light-11": "#6F6F6F",
+        "gray-light-12": "#171717",
+        "gray-light-2": "#F8F8F8",
+        "gray-light-3": "#F3F3F3",
+        "gray-light-4": "#EDEDED",
+        "gray-light-6": "#E2E2E2",
+        "red-dark-1": "#A12E2E",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -71,7 +83,13 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        "blue-gradient": "linear-gradient(180deg, #0081F1 0%, #006ADC 100%)",
+      },
+      boxShadow: {
+        sm: "0px 0px 2px 0px #E0E0E0;",
+      },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/line-clamp")],
 }

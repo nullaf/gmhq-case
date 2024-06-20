@@ -1,8 +1,12 @@
+import Agent from "@/components/agent"
+import Sidebar from "@/components/sidebar"
+
 export default function Home() {
   return (
-    <main className="flex h-screen items-center justify-center">
-      <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
-        test
+    <main className="h-lvh bg-gray-light-3">
+      <div className="flex h-full justify-center bg-gray-light-3">
+        <Sidebar />
+        <Agent />
       </div>
     </main>
   )
