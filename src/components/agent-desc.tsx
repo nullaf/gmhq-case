@@ -39,7 +39,7 @@ const AgentDesc = () => {
           {desc}
         </div>
 
-        <h4 className="mt-1.5 text-xs text-blue-light-11">Why?</h4>
+        <h4 className="mt-1.5 text-xs text-gray-light-11">Why?</h4>
         <div className="line-clamp-[10] text-justify text-sm text-gray-light-12 hover:line-clamp-none">
           {desc}
         </div>

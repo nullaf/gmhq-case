@@ -30,6 +30,9 @@ module.exports = {
         "gray-light-4": "#EDEDED",
         "gray-light-6": "#E2E2E2",
         "red-dark-1": "#A12E2E",
+        "indigo-light-3": "#F0F4FF",
+        "indigo-light-6": "#C6D4F9",
+        "indigo-light-11": "#3451B2",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -78,16 +81,22 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "fade-in": {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.2s ease-out",
       },
       backgroundImage: {
         "blue-gradient": "linear-gradient(180deg, #0081F1 0%, #006ADC 100%)",
       },
       boxShadow: {
-        sm: "0px 0px 2px 0px #E0E0E0;",
+        sm: "0px 0px 2px 0px #E0E0E0",
+        lg: "0px 0px 12px 0px #E0E0E0",
       },
     },
   },

@@ -6,7 +6,7 @@ export default function Topbar() {
   return (
     <div className="flex items-center justify-between border-b-[1px] px-4 py-1.5">
       <div className="my-auto flex h-8 gap-3">
-        <div className="m-auto rounded border-[1px] border-solid border-blue-light-6 bg-blue-light-3 p-1">
+        <div className="m-auto cursor-pointer rounded border-[1px] border-solid border-blue-light-6 bg-blue-light-3 p-1 transition-opacity hover:opacity-80 active:opacity-100">
           <GanttChart size={12} color="#006ADC" strokeWidth={2} />
         </div>
         <div className="m-auto p-1">
