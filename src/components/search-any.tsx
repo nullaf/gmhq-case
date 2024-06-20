@@ -15,8 +15,6 @@ import {
   Users,
 } from "lucide-react"
 
-import { getOS } from "@/lib/utils"
-
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 
@@ -155,7 +153,6 @@ const SearchItem = ({
 }
 
 const SearchAny = () => {
-  const UserOS = getOS()
   return (
     <div className="absolute bottom-10 left-0 right-0 z-10 m-auto flex w-1/2 gap-3 rounded-lg border-[1px] border-gray-light-6 bg-gray-light-2 p-3 shadow-lg">
       <div className="relative flex w-full flex-col gap-3">
@@ -167,7 +164,7 @@ const SearchAny = () => {
             className="rounded-lg border-none bg-white shadow-sm focus-visible:ring-blue-light-11 focus-visible:ring-offset-0 active:ring-0"
           />
           <div className="absolute bottom-0 right-3 top-0 flex items-center text-center text-xs text-gray-light-11">
-            {UserOS ? `${UserOS === "Mac" ? "Press ⌘" : "Ctrl"} + K` : "⌘ K"}
+            Press ⌘ K
           </div>
         </div>
         <div className="h-[0.5px] bg-gray-light-6" />

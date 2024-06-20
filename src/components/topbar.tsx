@@ -36,22 +36,22 @@ export default function Topbar() {
               d="M8.00001 8.66668C8.3682 8.66668 8.66668 8.3682 8.66668 8.00001C8.66668 7.63182 8.3682 7.33334 8.00001 7.33334C7.63182 7.33334 7.33334 7.63182 7.33334 8.00001C7.33334 8.3682 7.63182 8.66668 8.00001 8.66668Z"
               fill="#6F6F6F"
               stroke="#6F6F6F"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M12.6667 8.66668C13.0349 8.66668 13.3333 8.3682 13.3333 8.00001C13.3333 7.63182 13.0349 7.33334 12.6667 7.33334C12.2985 7.33334 12 7.63182 12 8.00001C12 8.3682 12.2985 8.66668 12.6667 8.66668Z"
               fill="#6F6F6F"
               stroke="#6F6F6F"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M3.33332 8.66668C3.70151 8.66668 3.99999 8.3682 3.99999 8.00001C3.99999 7.63182 3.70151 7.33334 3.33332 7.33334C2.96513 7.33334 2.66666 7.63182 2.66666 8.00001C2.66666 8.3682 2.96513 8.66668 3.33332 8.66668Z"
               fill="#6F6F6F"
               stroke="#6F6F6F"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </Button>
