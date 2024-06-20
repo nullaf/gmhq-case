@@ -47,7 +47,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background antialiased",
+          "min-h-screen bg-gray-light-3 antialiased",
           inter.className
         )}
       >

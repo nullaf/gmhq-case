@@ -6,7 +6,7 @@ import Topbar from "./topbar"
 const Agent = ({ showSearch = false }) => {
   return (
     <div className="h-full w-full p-2">
-      <div className="h-full w-full rounded-xl border-[0.5px] border-solid border-gray-light-4 bg-gray-light-1">
+      <div className="h-full min-h-screen w-full rounded-xl border-[0.5px] border-solid border-gray-light-4 bg-gray-light-1">
         <Topbar />
         {showSearch && <SearchAny />}
         <div className="relative mt-3 px-4 py-3">
